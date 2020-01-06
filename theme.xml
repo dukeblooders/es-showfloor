@@ -5,17 +5,18 @@
 	<feature supported="carousel">
 	   <view name="system">
 		  <carousel name="systemcarousel">
-			<type>vertical</type>
-			<pos>0.72 0.02</pos>
+			<type>vertical_wheel</type>
+			<pos>0.715 0.02</pos>
 			<size>0.3 0.89</size>
+			<logoRotationOrigin>-20 0.5</logoRotationOrigin>
+			<logoRotation>1.9</logoRotation>
 			<logoScale>1.4</logoScale>
-			<logoSize>0.15 0.18</logoSize>
+			<logoSize>0.15 0.15</logoSize>
 			<color>00000000</color>
-			<maxLogoCount>5</maxLogoCount>
 		  </carousel>
 
 		  <text name="systemInfo">
-			 <pos>0.365 0.94</pos>
+			 <pos>0.355 0.94</pos>
 			 <color>FFFFFF</color>
 			 <fontSize>0.03</fontSize>
 			 <fontPath>./common/OpenSans-Bold.ttf</fontPath>
