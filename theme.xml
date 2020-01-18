@@ -5,19 +5,21 @@
 	<feature supported="carousel">
 	   <view name="system">
 		  <carousel name="systemcarousel">
-			<type>vertical_wheel</type>
-			<pos>0.715 0.02</pos>
-			<size>0.3 0.89</size>
-			<logoRotationOrigin>-20 0.5</logoRotationOrigin>
-			<logoRotation>1.9</logoRotation>
-			<logoScale>1.4</logoScale>
+			<type>horizontal_wheel</type>
+			<pos>0.0 0.7</pos>
+			<size>1 0.25</size>
+			<maxLogoCount>5</maxLogoCount>
+			<logoRotationOrigin>0.5 -55</logoRotationOrigin>
+			<logoRotation>-2.5</logoRotation>
+			<logoScale>1.3</logoScale>
 			<logoSize>0.15 0.15</logoSize>
 			<color>00000000</color>
 		  </carousel>
 
 		  <text name="systemInfo">
-			 <pos>0.355 0.94</pos>
+			 <pos>-0.01 0.94</pos>
 			 <color>FFFFFF</color>
+			 <alignment>right</alignment>
 			 <fontSize>0.03</fontSize>
 			 <fontPath>./common/OpenSans-Bold.ttf</fontPath>
 		  </text>
@@ -29,7 +31,7 @@
          <textColor>777777</textColor>
          <iconColor>77777750</iconColor>
       </helpsystem>
-   </view>
+   </view> 
 
    <view name="basic,detailed,video">
       <textlist name="gamelist">
@@ -52,7 +54,7 @@
          <pos>0.5 0.125</pos>
          <maxSize>0.35 0.15</maxSize>
       </image>
-      <image name="background" extra="true">
+      <image name="background">
          <path>./common/backgroundbasic.png</path>
       </image>
       <textlist name="gamelist">
@@ -63,7 +65,8 @@
    </view>
 
    <view name="detailed,video">
-      <image name="background" extra="true">
+     
+      <image name="background">
          <path>./common/backgroundgame.png</path>
       </image>
 	  <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_playcount, md_lastplayed">
@@ -76,6 +79,11 @@
       </text>
 	  
 	  <image name="md_marquee">
+		 <pos>0 0</pos> <!-- hidden -->
+		 <maxSize>0 0</maxSize>
+      </image>
+	  
+	  <image name="md_thumbnail">
 		 <origin>0.5 0.5</origin>
          <pos>0.37 0.116</pos>
          <maxSize>0.68 0.15</maxSize>
@@ -160,7 +168,6 @@
          <size>0.16 0.025</size>
       </text>
 	-->
-
    </view>
    
 </theme>
