@@ -108,10 +108,15 @@
          <color>FFFFFF</color>
       </text>
 	  <text name="md_developer">
-         <pos>0.032 0.865</pos>
+         <pos>0.031 0.865</pos>
          <size>0.207 0.025</size>
-		 <alignment>center</alignment>
       </text>
+	  <datetime name="md_releasedate">
+         <pos>0.208 0.865</pos>
+         <size>0.03 0.025</size>
+		 <format>%Y</format>
+		 <alignment>right</alignment>
+      </datetime>
 	  
 	  <!-- Middle -->
 	  <video name="md_video">
@@ -144,11 +149,6 @@
          <pos>0.725 0.465</pos>
          <size>0.0625 0.025</size>
       </text>
-	  <datetime name="md_releasedate">
-         <pos>0.872 0.26</pos>
-         <size>0.09 0.025</size>
-		 <alignment>right</alignment>
-      </datetime>
 	  <text name="md_lbl_rating">
          <pos>0.725 0.405</pos>
          <size>0.0625 0.025</size>
