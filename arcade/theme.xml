@@ -4,7 +4,7 @@
 
 	<view name="system, basic, detailed, video">
 		<image name="logo">
-			<path>./systemblue.png</path>
+			<path>./system.png</path>
 		</image>
 	</view>
 
@@ -19,9 +19,9 @@
 	
 	<view name="detailed,video">
 		<image name="md_marquee">
-		 <pos>0.135 0.575</pos>
-         <maxSize>0.206 0.529</maxSize>
-      </image>
+		   <pos>0.86 0.53</pos>
+		   <maxSize>0.219 0.62</maxSize>
+		</image>
 	</view>
 
 </theme>

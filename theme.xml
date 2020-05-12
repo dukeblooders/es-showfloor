@@ -83,63 +83,67 @@
 		 <maxSize>0 0</maxSize>
       </image>
 	  
-	  <image name="md_thumbnail">
-		 <origin>0.5 0.5</origin>
-         <pos>0.37 0.116</pos>
-         <maxSize>0.68 0.15</maxSize>
-      </image>
-	  
 	  <!-- Left -->
-	  <text name="md_lbl_players">
-         <pos>1 1</pos> <!-- hidden -->		 
-      </text>
-	  <text name="md_players">
-         <pos>0.054 0.26</pos>
-		 <size>0.1 0.025</size>
-      </text>
-	  <text name="md_genre">
-         <pos>0.077 0.26</pos>
-         <size>0.16 0.025</size>
-		 <alignment>right</alignment>
-      </text>
-	  <text name="md_description">
-         <pos>0.032 0.31</pos>
-         <size>0.207 0.53</size>
-         <color>FFFFFF</color>
-      </text>
-	  <text name="md_developer">
-         <pos>0.031 0.865</pos>
-         <size>0.207 0.025</size>
-      </text>
-	  <datetime name="md_releasedate">
-         <pos>0.208 0.865</pos>
-         <size>0.03 0.025</size>
-		 <format>%Y</format>
-		 <alignment>right</alignment>
-      </datetime>
+	  <image name="logo">
+         <origin>0.5 0.5</origin>
+         <pos>0.135 0.1</pos>
+         <maxSize>0.175 0.175</maxSize>
+      </image>  
+	  <textlist name="gamelist">
+         <pos>0.029 0.223</pos>
+         <size>0.21 0.67</size>
+         <alignment>left</alignment>
+      </textlist> 
 	  
-	  <!-- Middle -->
+	   <!-- Middle -->
 	  <video name="md_video">
          <origin>0.5 0.5</origin>
-         <pos>0.5 0.58</pos>
-         <maxSize>0.42 0.6</maxSize>
+         <pos>0.509 0.525</pos>
+         <maxSize>0.444 0.61</maxSize>
          <delay>2.00</delay>
          <showSnapshotNoVideo>true</showSnapshotNoVideo>
          <showSnapshotDelay>true</showSnapshotDelay>
       </video>
-
-	  <!-- Right --> 	
-	  <image name="logo">
-         <origin>0.5 0.5</origin>
-         <pos>0.868 0.115</pos>
-         <maxSize>0.2 0.2</maxSize>
-      </image>  
-	  <textlist name="gamelist">
-         <pos>0.765 0.257</pos>
-         <size>0.2 0.645</size>
-         <alignment>left</alignment>
-      </textlist> 
 	  
+      <!-- Right --> 	
+      <image name="md_thumbnail">
+         <origin>0.5 0.5</origin>
+		 <pos>0.628 0.116</pos>
+		 <maxSize>0.684 0.149</maxSize>
+      </image>
+	  <text name="md_description">
+         <pos>0.75 0.22</pos>
+         <size>0.219 0.619</size>
+         <color>FFFFFF</color>
+      </text>
+	  <text name="md_developer">
+         <pos>0.286 0.865</pos>
+         <size>0.207 0.025</size>
+      </text>
+	  <text name="md_genre">
+         <pos>0.431 0.865</pos>
+         <size>0.3 0.025</size>
+		 <alignment>right</alignment>
+      </text>
+	  <text name="md_lbl_players">
+         <pos>1 1</pos> <!-- hidden -->		 
+      </text>
+	  <text name="md_players">
+         <pos>0.774 0.865</pos>
+		 <size>0.1 0.025</size>
+      </text>
+	  <datetime name="md_releasedate">
+         <pos>0.94 0.865</pos>
+         <size>0.03 0.025</size>
+		 <format>%Y</format>
+		 <alignment>right</alignment>
+      </datetime>
+	  <text name="md_publisher">
+         <pos>0.81 0.865</pos>
+		 <size>0.1 0.025</size>
+		 <alignment>center</alignment>
+      </text>
+	  	
 	<!-- 
       <text name="md_lbl_developer">
          <pos>0.43 0.26</pos>
@@ -159,14 +163,6 @@
          <filledPath>./common/star_filled.svg</filledPath>
          <unfilledPath>./common/star_empty.svg</unfilledPath>
       </rating>
-	  <text name="md_lbl_genre">
-         <pos>0.725 0.495</pos>
-         <size>0.0625 0.025</size>
-      </text>
-      <text name="md_genre">
-         <pos>0.81 0.495</pos>
-         <size>0.16 0.025</size>
-      </text>
 	-->
    </view>
    
